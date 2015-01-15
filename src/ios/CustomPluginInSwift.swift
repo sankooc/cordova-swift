@@ -1,11 +1,3 @@
-//
-//  CustomPluginInSwift.swift
-//  tab-pro
-//
-//  Created by sankooc on 1/14/15.
-//
-//
-
 import Foundation
 
 @objc(DemoPluginInSwift) class CustomPluginInSwift : CDVPlugin {

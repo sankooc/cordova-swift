@@ -26,8 +26,8 @@
     <name>swift-cordova</name>
     <description>swift</description>
     <license>MIT</license>
-    <keywords>swift</keywords>
-    <repo>https://github.com/sankooc/cordova-plugin-ionic-avos.git</repo>
+    <keywords>swift,base</keywords>
+    <repo>https://github.com/sankooc/cordova-swift</repo>
     <js-module src="www/swift.js" name="swift">
         <clobbers target="swift" />
     </js-module>
