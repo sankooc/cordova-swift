@@ -5,7 +5,7 @@ var swift = function () {
 };
 
 swift.prototype.setting = function (succ,error,type,option) {
-	return exec(succ, error, "CustomPluginInSwift", "getSettings");
+	return exec(succ, error, "CustomPluginSwift", "getSettings");
 };
 
 module.exports = new swift();

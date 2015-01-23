@@ -1,8 +1,8 @@
 import Foundation
 
-@objc(DemoPluginInSwift) class CustomPluginInSwift : CDVPlugin {
+@objc(DemoPluginInSwift) class CustomPluginSwift : CDVPlugin {
     func getSettings(command: CDVInvokedUrlCommand) {
-        println("CustomPluginInSwift :: getSettings is called")
+        println("CustomPluginSwift :: getSettings is called")
         var pluginResult = CDVPluginResult(status: CDVCommandStatus_OK)
         commandDelegate.sendPluginResult(pluginResult, callbackId:command.callbackId)
     }
